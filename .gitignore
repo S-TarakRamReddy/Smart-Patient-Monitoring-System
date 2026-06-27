@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary VS Code runner files
+tempCodeRunnerFile.py
+.vscode/
+
+# SQLite databases (generated at runtime)
+*.db
+*.db-journal
+*.sqlite3
+
+# Large Dataset files & MIMIC raw demo data
+data/
+ml_models/processed_vitals.csv
+
+# Compiled machine learning models (optional: uncomment if using Git LFS or external download)
+# ml_models/*.pkl
+# ml_models/*.h5
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
