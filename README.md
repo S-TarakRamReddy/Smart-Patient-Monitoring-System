@@ -101,7 +101,7 @@ graph TD
 ## Folder Structure
 
 ```text
-CN PBL/
+Smart-Patient-Monitoring-System/
 ├── backend/                  # Core telemetry subscriber and analytical engines
 │   ├── anomaly_detection.py  # Model loading and real-time inference logic
 │   ├── database.py           # SQLite database schema, inserts, and queries
@@ -167,7 +167,7 @@ The models are pre-trained on a subset of the **MIMIC-IV (Medical Information Ma
 Clone the repository and navigate to its folder:
 ```bash
 git clone <repository_url>
-cd "CN PBL"
+cd "Smart-Patient-Monitoring-System"
 ```
 
 Create a virtual environment and activate it:
